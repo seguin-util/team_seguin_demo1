@@ -84,11 +84,10 @@ area, lastly is head which points to the last commit you made.
 ```git commit -m -a "My first commit on team_seguin all is running as expected"``` && ```git push -u origin master```
 
 ### Step 8
-- To sign up as a new user, click to unfold the ```POST /Users endpoint```.
-In the ```‘Credentials’ parameter paste a new json object```
+- To sign up as a new user, click to unfold the ```POST /Users endpoint```
+- In the ```‘Credentials’ parameter paste a new json object```
 
-- return
-```{
+- return ```{
   "email":"user1@email.com",
   "password":"passw0rd",
   "username":"user1"
