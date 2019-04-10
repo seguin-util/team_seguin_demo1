@@ -93,8 +93,7 @@ area, lastly is head which points to the last commit you made.
   "username":"user1"
 }```
 
-- The Response Body should return a new id.
-```{     
+- The Response Body should return a new id. ```{     
   "username": "user1",   
   "email": "user1@email.com",   
   "id": 1
