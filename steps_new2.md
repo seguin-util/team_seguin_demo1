@@ -1,4 +1,4 @@
-# Mission:  Build a node application with with a restful API
+# Mission:  Build a node application with a restful API
 
 # Note:  A problem we have to overcome has been the .bash_profile vs .bashrc on Macs.  
 
