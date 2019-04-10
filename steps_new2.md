@@ -1,10 +1,17 @@
 # Mission:  Build a node application with with a restful API
 
-# Note:  A problem we have to overcome has been the .bash_profile vs .bashrc on Macs.  I found the following excerpt on this issue.
+# Note:  A problem we have to overcome has been the .bash_profile vs .bashrc
+on Macs.  I found the following excerpt on this issue.
 
-When a user logs in to a system, the user’s work environment is determined by the initialization files. These initialization files are defined by the user’s startup shell, which can vary depending on the release.  They are called .bashrc and or .bash_profile if they do not exist you can create them with touch .bashrc or .bash_profile
+When a user logs in to a system, the user’s work environment is determined by
+the initialization files. These initialization files are defined by the
+user’s startup shell, which can vary depending on the release.  
+They are called .bashrc and or .bash_profile if they do not exist you can
+create them with touch .bashrc or .bash_profile
 
-Many linux systems use the .bashrc file to initialize the users environment,  but Mac OS is an exception and will use .bash_profile unless you alias it from the .bashrc initialize file which is a
+Many linux systems use the .bashrc file to initialize the users environment,  
+but Mac OS is an exception and will use .bash_profile unless you alias it from
+the .bashrc initialize file which is a
 recommendation.  We are not going to do that for now maybe down the line.
 
 ## Begin
@@ -12,9 +19,11 @@ recommendation.  We are not going to do that for now maybe down the line.
 ### Step 1a
 - Verify if brew is installed with ```brew --version```
 - if installed move to step 1b
-- else run ```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
- ```
-- ***Homebrew known as brew installs the stuff you need that Apple (or your Linux system) didn’t.***
+- else run ```/usr/bin/ruby -e "$(curl -fsSL \
+  https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+
+- ***Homebrew known as brew installs the stuff you need that Apple
+(or your Linux system) didn’t.***
 
 ### Step 1b
 - Verify your dependencies with ```nvm --version```
@@ -24,7 +33,8 @@ recommendation.  We are not going to do that for now maybe down the line.
 - nvm allows you to install multiple versions of node
 
 ![nvm is a node version manager allowing you to install multiple versions of
-node](/Users/jsaldana/Desktop/InternProjects/loopback_Demo1/nvm_explain_image.png "nvm allows you to install multiple versions of node")
+node](/Users/jsaldana/Desktop/InternProjects/loopback_Demo1/
+  nvm_explain_image.png "nvm allows you to install multiple versions of node")
 
 
 ### Step 2
@@ -32,7 +42,8 @@ node](/Users/jsaldana/Desktop/InternProjects/loopback_Demo1/nvm_explain_image.pn
 ```command -v nvm```
 *** should echo nvm ***
 
-*** Note:  In your startup script, e.g. ~/.bashrc, ~/.profile, ~/.zshrc, you’ll need to add this:
+*** Note:  In your startup script, e.g. ~/.bashrc, ~/.profile, ~/.zshrc,
+you’ll need to add this:
 
 ```export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"```
@@ -45,28 +56,40 @@ node](/Users/jsaldana/Desktop/InternProjects/loopback_Demo1/nvm_explain_image.pn
 ``` npm install -g loopback-cli```
 - Check version of loopback
 ```lb -v```
-- ***What is lookback?*** LoopBack is a highly-extensible, open-source Node.js framework that enables you to create dynamic end-to-end REST APIs with little coding.
+- ***What is lookback?*** LoopBack is a highly-extensible, open-source Node.js
+framework that enables you to create dynamic end-to-end REST APIs.
 
 ### Step 5
 Create a new LoopBack Application - run: ```lb```
-- lb will present you with a command line options to build a new node application
-- ***name:  team_seguin > dir: team_seguin > version: 3.x > application type: api-server > should say Im all done running npm install for you.***
+- lb will present you with a command line options to build a new node
+application
+- ***name:  team_seguin > dir: team_seguin > version: 3.x > application
+type: api-server > should say Im all done running npm install for you.***
 
 ### Step 6
-- verify everything is running properly - run:  ```node .``` > now open up in a browser ```http://localhost:3000/explorer``` explore your new node api interface built for you with just a few commands.
+- verify everything is running properly - run:  ```node .``` > now open up in
+a browser ```http://localhost:3000/explorer``` explore your new node api
+interface built for you with just a few commands.
 
 ### Step 7
 
 - if everything is going as expected than do your first commit to github.
 - *** Git Workflow ***
-- First log into your github account and ```make a new repository called team_seguin```.  This will be your master branch
+- First log into your github account and ```make a new repository
+called team_seguin```.  This will be your master branch
 - ***Next***
-- Your local repository consist of ```3 main trees maintained by git```. The first one is your working directory, second is the index acts as staging area, lastly is head which points to the last commit you made.
+- Your local repository consist of ```3 main trees maintained by git```.
+The first one is your working directory, second is the index acts as staging
+area, lastly is head which points to the last commit you made.
 -
-- from your team_seguin directory run ```git init``` > ``` git add .``` > ```git commit -m "My first commit on team_seguin all is running as expected"``` > ```git remote add origin https://github.com/seguin-util/team_seguin_nodeapi_demo1.git``` > ```git push -u origin master```
+- from your team_seguin directory run ```git init``` > ``` git add .``` >
+```git commit -m "My first commit on team_seguin all is running as expected"```
+> ```git remote add origin https://github.com/seguin-util/team_seguin_demo1.git```
+> ```git push -u origin master```
 
 ### Step 8
-- To sign up as a new user, click to unfold the ```POST /Users endpoint```. In the ```‘Credentials’ parameter paste a new json object```
+- To sign up as a new user, click to unfold the ```POST /Users endpoint```.
+In the ```‘Credentials’ parameter paste a new json object```
 
 - ```
   {
@@ -84,7 +107,9 @@ Create a new LoopBack Application - run: ```lb```
 }```
 
 ### Step 9
-- Then to login click and unfold the ```POST /Users/login endpoint```, in the ```‘Credentials’ parameter paste the json object with the email and password properties```
+- Then to login click and unfold the ```POST /Users/login endpoint```,
+in the ```‘Credentials’ parameter paste the json object with the email and
+password properties```
 
 - ```
 {
@@ -95,7 +120,8 @@ Create a new LoopBack Application - run: ```lb```
 
 ### Step 10
 
-- The Response Body should return an ```id value that is the access token```, which you use to authenticate other API requests.
+- The Response Body should return an ```id value that is the access token```,
+which you use to authenticate other API requests.
 
 - ```
 {   
@@ -108,10 +134,13 @@ Create a new LoopBack Application - run: ```lb```
 
 ### Step 11
 
-- Copy the access_token value and paste the value in the top right of the Loopback explorer, and ```press the ‘Set access token’ button```. In a regular API request, you would add a URL parameter ‘?access_token=..’
+- Copy the access_token value and paste the value in the top right of the
+Loopback explorer, and ```press the ‘Set access token’ button```.
+In a regular API request, you would add a URL parameter ‘?access_token=..’
 
 ### step 12
-- Go to PUT /Users/{id}, and in the parameters enter for ‘id’ the userId, in this case ‘1’, and for ‘data’ enter
+- Go to PUT /Users/{id}, and in the parameters enter for ‘id’ the userId,
+in this case ‘1’, and for ‘data’ enter
 
 ```
 {
@@ -122,6 +151,7 @@ Create a new LoopBack Application - run: ```lb```
   "lastname": "doe"
 }
 ```
-- Press the ‘Try it out!’ button. You will see, you were allowed to make updates to the user, but only because you are the authenticated owner of user 1.
+- Press the ‘Try it out!’ button. You will see, you were allowed to make
+updates to the user, but only because you are the authenticated owner of user 1.
 
-### Done! Great Job Maybe your first api server ready to serve thousands of devices!
+### Done! Great Job Jordyn and Elilita your first api server. 
