@@ -12,7 +12,7 @@ recommendation.  We are not going to do that for now maybe down the line.
 ### Step 1a
 - Verify if brew is installed with ```brew --version```
 - if installed move to step 1b
-- else run ```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+- else run ```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
  ```
 - ***Homebrew known as brew installs the stuff you need that Apple (or your Linux system) didn’t.***
 
