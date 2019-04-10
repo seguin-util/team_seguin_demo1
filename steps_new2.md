@@ -1,7 +1,8 @@
 # Mission:  Build a node application with with a restful API
 
-# Note:  A problem we have to overcome has been the .bash_profile vs .bashrc
-on Macs.  I found the following excerpt on this issue.
+# Note:  A problem we have to overcome has been the .bash_profile vs .bashrc on Macs.  
+
+I found the following excerpt on this issue.
 
 When a user logs in to a system, the user’s work environment is determined by
 the initialization files. These initialization files are defined by the
