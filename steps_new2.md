@@ -74,7 +74,7 @@ type: api-server > should say Im all done running npm install for you.***
 ### Step 7
 
 - if everything is going as expected than do your first commit to your github account.
-- *** Git Workflow to add your own code ***
+- ***Git Workflow to add your own code***
 
 - ***Note*** Your local repository consist of ```3 main trees maintained by git```.
 The first one is your working directory, second is the index acts as staging
