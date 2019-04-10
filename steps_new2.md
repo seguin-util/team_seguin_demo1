@@ -101,8 +101,8 @@ area, lastly is head which points to the last commit you made.
 
 ### Step 9
 - Then to login click and unfold the ```POST /Users/login endpoint```,
-in the ```‘Credentials’ parameter paste the json object with the email and password properties```
-- ```{
+in the ```‘Credentials’ parameter paste the json object with the email and password properties```.
+- Enter ```{
   "username":"user1",
   "password":"passw0rd"
 }```
