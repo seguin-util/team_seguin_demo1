@@ -101,8 +101,7 @@ area, lastly is head which points to the last commit you made.
 
 ### Step 9
 - Then to login click and unfold the ```POST /Users/login endpoint```,
-in the ```‘Credentials’ parameter paste the json object with the email and
-password properties```
+in the ```‘Credentials’ parameter paste the json object with the email and password properties```
 
 - ```{
   "username":"user1",
@@ -125,9 +124,7 @@ password properties```
 Loopback explorer, and ```press the ‘Set access token’ button```.
 
 ### step 12
-- Go to ```PUT /Users/{id}```, and in the parameters enter the ‘id’ the userId, in this case ‘1’, and for ‘data’ enter
-
-```{
+- Go to ```PUT /Users/{id}```, and in the parameters enter the ‘id’ the userId, in this case ‘1’, and for ‘data’ enter ```{
   "username": "user1",
   "email": "user1@email.com",
   "password" : "passw0rd",
