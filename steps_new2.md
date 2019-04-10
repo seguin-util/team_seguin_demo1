@@ -14,7 +14,9 @@ but Mac OS is an exception and will use .bash_profile unless you alias it from
 the .bashrc initialize file which is a
 recommendation.  We are not going to do that for now maybe down the line.
 
-### Begin with creating a new directory in your projects folder on your desktop called team_seguin_demo1 then at your terminal run ```git clone git@github.com:seguin-util/team_seguin_demo1.git```
+### Begin with creating a new directory in your projects folder on your desktop called team_seguin_demo1 then at your terminal run
+
+- ```git clone git@github.com:seguin-util/team_seguin_demo1.git```
 - Now open the new folder by typing ```atom .```
 - This will show all files in the folder including the ***steps_new2.md*** file with all the instructions on how to complete this exercise.
 
