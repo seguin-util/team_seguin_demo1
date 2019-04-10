@@ -14,7 +14,9 @@ but Mac OS is an exception and will use .bash_profile unless you alias it from
 the .bashrc initialize file which is a
 recommendation.  We are not going to do that for now maybe down the line.
 
-## Begin
+## Begin with creating a new directory in your projects folder on your desktop called team_seguin_demo1 then at your terminal run ```git clone git@github.com:seguin-util/team_seguin_demo1.git```
+- Now open the new folder by typing atom .
+- This will show all files in the folder including the steps_new2.md file with all the instructions on how to complete this exercise.
 
 ### Step 1a
 - Verify if brew is installed with ```brew --version```
@@ -58,31 +60,28 @@ node](/Users/jsaldana/Desktop/InternProjects/loopback_Demo1/
 framework that enables you to create dynamic end-to-end REST APIs.
 
 ### Step 5
-Create a new LoopBack Application - run: ```lb```
+Create a new LoopBack Application - at terminal run: ```lb```
 - lb will present you with a command line options to build a new node
 application
 - ***name:  team_seguin > dir: team_seguin > version: 3.x > application
 type: api-server > should say Im all done running npm install for you.***
 
 ### Step 6
-- verify everything is running properly - run:  ```node .``` > now open up in
+- verify everything is running properly - at terminal run:  ```node .``` > now open up in
 a browser ```http://localhost:3000/explorer``` explore your new node api
 interface built for you with just a few commands.
 
 ### Step 7
 
-- if everything is going as expected than do your first commit to github.
-- *** Git Workflow ***
-- First log into your github account and ```make a new repository
-called team_seguin```.  Make sure to check the box that says to add README.md This will auto set your master branch and allow you to clone it.
-- Now go back to your terminal and from your team_seguin directory run ```git clone git@github.com:seguin-util/team_seguin_demo1.git```
+- if everything is going as expected than do your first commit to your github account.
+- *** Git Workflow to add your own code ***
+
 - ***Note*** Your local repository consist of ```3 main trees maintained by git```.
 The first one is your working directory, second is the index acts as staging
 area, lastly is head which points to the last commit you made.
 -
-- from your team_seguin directory run ```git init``` > ``` git add .``` >
-```git commit -m "My first commit on team_seguin all is running as expected"```
-> ```git remote add origin https://github.com/seguin-util/team_seguin_demo1.git```
+- from your team_seguin directory run git add .``` >
+```git commit -m -a "My first commit on team_seguin all is running as expected"```
 > ```git push -u origin master```
 
 ### Step 8
