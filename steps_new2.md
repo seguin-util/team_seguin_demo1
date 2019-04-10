@@ -43,7 +43,7 @@ node](/Users/jsaldana/Desktop/InternProjects/loopback_Demo1/
 *** should echo nvm ***
 
 *** Note:  In your startup script, e.g. ~/.bashrc, ~/.profile, ~/.zshrc,
-you’ll need to add this:
+you’ll need to add this:***
 
 ```export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"```
@@ -154,4 +154,4 @@ in this case ‘1’, and for ‘data’ enter
 - Press the ‘Try it out!’ button. You will see, you were allowed to make
 updates to the user, but only because you are the authenticated owner of user 1.
 
-### Done! Great Job Jordyn and Elilita your first api server. 
+### Done! Great Job Jordyn and Elilita your first api server.
