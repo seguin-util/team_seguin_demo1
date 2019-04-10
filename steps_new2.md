@@ -44,8 +44,7 @@ node](/Users/jsaldana/Desktop/InternProjects/loopback_Demo1/
 
 #### Note:  In your startup script, e.g. ~/.bashrc, ~/.profile, ~/.zshrc, you’ll need to add this:
 
-```export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"```
+``` export NVM_DIR="$HOME/.nvm" [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"```
 
 ### Step 3
 - install a new version of Node.js
