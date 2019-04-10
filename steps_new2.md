@@ -79,7 +79,7 @@ type: api-server > should say Im all done running npm install for you.***
 - ***Note*** Your local repository consist of ```3 main trees maintained by git```.
 The first one is your working directory, second is the index acts as staging
 area, lastly is head which points to the last commit you made.
-- from your team_seguin directory run git add .``` >
+- from your team_seguin directory run ```git add .``` >
 ```git commit -m -a "My first commit on team_seguin all is running as expected"```
 > ```git push -u origin master```
 
