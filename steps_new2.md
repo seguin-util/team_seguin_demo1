@@ -67,9 +67,7 @@ application
 type: api-server > should say Im all done running npm install for you.***
 
 ### Step 6
-- verify everything is running properly - at terminal run:  ```node .``` > now open up in
-a browser ```http://localhost:3000/explorer``` explore your new node api
-interface built for you with just a few commands.
+- verify everything is running properly - at terminal run:  ```node .``` > now open up in a browser ```http://localhost:3000/explorer``` explore your new node api interface built for you with just a few commands.
 
 ### Step 7
 
@@ -79,7 +77,6 @@ interface built for you with just a few commands.
 - ***Note*** Your local repository consist of ```3 main trees maintained by git```.
 The first one is your working directory, second is the index acts as staging
 area, lastly is head which points to the last commit you made.
--
 - from your team_seguin directory run git add .``` >
 ```git commit -m -a "My first commit on team_seguin all is running as expected"```
 > ```git push -u origin master```
