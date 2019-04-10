@@ -22,8 +22,8 @@ recommendation.  We are not going to do that for now maybe down the line.
 - else run ```/usr/bin/ruby -e "$(curl -fsSL \
   https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
-- ***Homebrew known as brew installs the stuff you need that Apple
-(or your Linux system) didn’t.***
+- *** Homebrew known as brew installs the stuff you need that Apple
+(or your Linux system) didn’t. ***
 
 ### Step 1b
 - Verify your dependencies with ```nvm --version```
