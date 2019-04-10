@@ -118,13 +118,12 @@ password properties```
 
 - The Response Body should return an ```id value that is the access token```, which you use to authenticate other API requests.
 
-- ```{   
+- ```{
 "id": "cwotd42A6VxOrWbFEN1EQigITKA1RnFHGWAKUz",   
 "ttl": 1209600,   
 "created": "2017-09-20T21:03:59.305Z",   
 "userId": 1
-}
-```
+}```
 
 ### Step 11
 
