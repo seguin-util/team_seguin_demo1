@@ -40,15 +40,14 @@ node](/Users/jsaldana/Desktop/InternProjects/loopback_Demo1/
 ### Step 2
 - check if nvm is working run:
 ```command -v nvm```
-*** should echo nvm ***
+- should echo nvm
 
-*** Note:  In your startup script, e.g. ~/.bashrc, ~/.profile, ~/.zshrc,
-you’ll need to add this:***
+#### Note:  In your startup script, e.g. ~/.bashrc, ~/.profile, ~/.zshrc, you’ll need to add this:
 
 ```export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"```
 
-### step 3
+### Step 3
 - install a new version of Node.js
 - please install node version 8.6 with ```nvm install 8.6.0```
 
