@@ -74,9 +74,9 @@ interface built for you with just a few commands.
 - if everything is going as expected than do your first commit to github.
 - *** Git Workflow ***
 - First log into your github account and ```make a new repository
-called team_seguin```.  This will be your master branch
-- ***Next***
-- Your local repository consist of ```3 main trees maintained by git```.
+called team_seguin```.  Make sure to check the box that says to add README.md This will auto set your master branch and allow you to clone it.
+- Now go back to your terminal and from your team_seguin directory run ```git clone git@github.com:seguin-util/team_seguin_demo1.git```
+- ***Note*** Your local repository consist of ```3 main trees maintained by git```.
 The first one is your working directory, second is the index acts as staging
 area, lastly is head which points to the last commit you made.
 -
