@@ -87,16 +87,15 @@ area, lastly is head which points to the last commit you made.
 - To sign up as a new user, click to unfold the ```POST /Users endpoint```.
 In the ```‘Credentials’ parameter paste a new json object```
 
-- ```
-  {
+- return
+```{
   "email":"user1@email.com",
   "password":"passw0rd",
   "username":"user1"
 }```
 
 - The Response Body should return a new id.
-```
-{     
+```{     
   "username": "user1",   
   "email": "user1@email.com",   
   "id": 1
@@ -107,12 +106,10 @@ In the ```‘Credentials’ parameter paste a new json object```
 in the ```‘Credentials’ parameter paste the json object with the email and
 password properties```
 
-- ```
-{
+- ```{
   "username":"user1",
   "password":"passw0rd"
-}
-```
+}```
 
 ### Step 10
 
@@ -128,21 +125,17 @@ password properties```
 
 - Copy the access_token value and paste the value in the top right of the
 Loopback explorer, and ```press the ‘Set access token’ button```.
-In a regular API request, you would add a URL parameter ‘?access_token=..’
 
 ### step 12
-- Go to PUT /Users/{id}, and in the parameters enter for ‘id’ the userId,
-in this case ‘1’, and for ‘data’ enter
+- Go to ```PUT /Users/{id}```, and in the parameters enter the ‘id’ the userId, in this case ‘1’, and for ‘data’ enter
 
-```
-{
+```{
   "username": "user1",
   "email": "user1@email.com",
   "password" : "passw0rd",
   "firstname": "john",
   "lastname": "doe"
-}
-```
+}```
 - Press the ‘Try it out!’ button. You will see, you were allowed to make
 updates to the user, but only because you are the authenticated owner of user 1.
 
