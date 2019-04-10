@@ -16,7 +16,7 @@ recommendation.  We are not going to do that for now maybe down the line.
 
 ### Begin with creating a new directory in your projects folder on your desktop called team_seguin_demo1 then at your terminal run ```git clone git@github.com:seguin-util/team_seguin_demo1.git```
 - Now open the new folder by typing ```atom .```
-- This will show all files in the folder including the steps_new2.md file with all the instructions on how to complete this exercise.
+- This will show all files in the folder including the ***steps_new2.md*** file with all the instructions on how to complete this exercise.
 
 ### Step 1a
 - Verify if brew is installed with ```brew --version```
